@@ -16,6 +16,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: darkslategrey;
+    gap: 16px;
 }
 
 main .box{
@@ -25,6 +26,7 @@ main .box{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 main .box h1{
