@@ -24,8 +24,10 @@ main .box{
     height: 200px;
     background-color: cornflowerblue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
     border-radius: 8px;
 }
 
@@ -33,4 +35,8 @@ main .box h1{
     font-weight: 900;
     font-size: 2rem;
     color: rgb(44, 44, 44);
+}
+
+main .box p{
+    align-self: flex-end;
 }
